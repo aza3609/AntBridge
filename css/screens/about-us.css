@@ -1,0 +1,126 @@
+.menu-discription--left {
+  text-align: start;
+  position: relative;
+  left: 305px;
+  border-bottom: none;
+}
+.welcome-address {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 120px;
+}
+.welcome-address__column:first-child {
+  width: 25%;
+}
+.welcome-address__column:last-child {
+  width: 75%;
+}
+.welcome-address__title {
+  font-size: 34px;
+  font-weight: 300;
+}
+.welcome-address__line {
+  width: 110px;
+  height: 1px;
+  background-color: black;
+  position: relative;
+  left: 140px;
+  top: -10px;
+}
+.welcome-address__text {
+  line-height: 150%;
+  font-size: 18px;
+}
+.welcome-address__text h3 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.welcome-address__text h4 {
+  font-size: 18px;
+  font-weight: 600;
+}
+.welcome-address__text span {
+  font-size: 16px;
+  font-weight: 400;
+  color: #6f6f6f;
+}
+
+.history {
+  width: 100%;
+  display: flex;
+
+  justify-content: space-between;
+}
+.history__column:first-child {
+  width: 25%;
+}
+.history__column:last-child {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+}
+.history__title {
+  font-size: 34px;
+  font-weight: 300;
+}
+.history__line {
+  width: 110px;
+  height: 1px;
+  background-color: black;
+  position: relative;
+  left: 140px;
+  top: -10px;
+}
+.history__column--left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 95px;
+  height: 95px;
+  border-radius: 50%;
+  border: 3px solid #5c92ff;
+  font-size: 23px;
+  color: #565656;
+  font-weight: 600;
+  position: relative;
+  top: -27px;
+}
+.history__row {
+  font-size: 18px;
+  display: flex;
+}
+.history__text {
+  width: 700px;
+  margin-bottom: 18px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+}
+.history__text span:nth-child(2) {
+  font-size: 16px;
+}
+.history__date {
+  color: #a4a4a4;
+  padding-left: 30px;
+  width: 70px;
+}
+.history__record--sm {
+  font-size: 16px;
+}
+.history__year {
+  display: flex;
+  margin-bottom: 50px;
+}
+.history__column--left div div {
+  height: 85px;
+  width: 1px;
+  background-color: #b7b7b7;
+  position: absolute;
+  top: 116px;
+  left: 50px;
+}
+.history__column--right {
+  margin-top: 8px;
+}

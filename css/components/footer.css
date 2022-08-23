@@ -1,0 +1,21 @@
+footer {
+  width: 100vw;
+  background-color: #e9eaedd6;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin-top: 140px;
+}
+.footer-contents {
+  line-height: 150%;
+  height: 200px;
+  display: flex;
+  justify-content: space-between;
+  width: 1220px;
+  align-items: center;
+  color: #6e6e6e;
+  font-size: 14px;
+}
+.main-footer {
+  margin-top: 0px;
+}

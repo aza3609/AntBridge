@@ -1,0 +1,33 @@
+.contact {
+  display: flex;
+  margin-top: 80px;
+}
+.contact__title {
+  font-size: 34px;
+  margin-bottom: 80px;
+}
+.contact__sub-title {
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+.contact__text span {
+  color: #353535;
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+.contact__text span i {
+  color: #999999;
+  margin-left: 5px;
+}
+.contact__text h2 i {
+  margin-right: 10px;
+}
+.ant-map {
+  width: 800px;
+}
+.contact__map i {
+  position: relative;
+  top: 200px;
+}

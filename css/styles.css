@@ -1,0 +1,32 @@
+@import "reset.css";
+/*components*/
+@import "components/header.css";
+@import "components/footer.css";
+/*screens*/
+@import "screens/index.css";
+@import "screens/solution.css";
+@import "screens/business.css";
+@import "screens/contact.css";
+@import "screens/products.css";
+@import "screens/about-us.css";
+
+/*spoqa-hans*/
+* {
+  /*font-family: "Spoqa Han Sans Neo", "sans-serif"; */
+}
+/*style.css*/
+
+body {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 16px;
+  line-height: 155%;
+}
+.main-screen {
+  width: 1220px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
