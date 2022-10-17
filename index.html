@@ -7,12 +7,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>AntBridge</title>
     <script src="https://unpkg.com/feather-icons"></script>
+    <!--
     <link href='//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css' rel='stylesheet' type='text/css'>
+  -->
+  <link rel="stylesheet" href="https://use.typekit.net/vfj7mpb.css">
   </head>
 
   <body>
     <header>
-      <nav class="nav-bar">
+      <nav class="nav-bar" >
         <a href="index.html"><img class="nav-bar__logo" src="ant-logo.png" /></a>
         <div class="nav-bar__list">
           <ul class="nav-bar__btn">
@@ -45,7 +48,7 @@
         <div class="main-business__text main-business__text--right">
           <span class="main-business__title-en">New Space Era</span>
           <span class="main-business__title">뉴스페이스 시대</span>
-          <p class="main-business__sud-title">
+          <p class="main-business__sub-title">
             천문우주 기반 기술로<br />뉴스페이스 시대에 앞장서는 기업
           </p>
         </div>
@@ -105,6 +108,104 @@
       </div>
     </div>
     
+    <div class="main-project">
+      <div class="project__title">Project</div>
+      <div class="project__bg"></div>
+      <img
+        class="project__bg-image project__bg-image--01 hidden"
+        src="source/0.main/project-01.png"
+      />
+      <img
+        class="project__bg-image project__bg-image--02 hidden"
+        src="source/0.main/project-02.png"
+      />
+      <img
+        class="project__bg-image project__bg-image--03 hidden"
+        src="source/0.main/project-03.png"
+      />
+      <img
+        class="project__bg-image project__bg-image--04 hidden"
+        src="source/0.main/project-04.png"
+      />
+      <div class="project__list">
+        <div class="project__item">
+          <div class="project__content">
+            <div class="project__text">
+              <h1 class="project__name">BITSE</h1>
+              <h2 class="project__name-long">
+                Balloon-born Investigation of Temperature and Speed of Electrons
+                in the corona
+              </h2>
+              <h3 class="project__discription">
+                태양 코로나 전자의 온도와 속도를 조사하기 위해 고고도의 벌룬을
+                통해 관측
+              </h3>
+            </div>
+
+              <a class="project__btn" href="http://codex.kasi.re.kr/kor/bitse/mission.php" target="_blank">
+                <span class="project__more">자세히보기</span>
+              <ion-icon name="arrow-forward-circle"></ion-icon>
+            </a>
+
+          </div>
+        </div>
+        <div class="project__item">
+          <div class="project__content">
+            <div class="project__text">
+              <h1 class="project__name">CODEX</h1>
+              <h2 class="project__name-long">Coronal Diagnostic Experiment</h2>
+              <h3 class="project__discription">
+                국제우주정거장에 설치하여 K-코로나 전자의 온도,속도 값을 동시에
+                2차원영상으로 관측
+              </h3>
+            </div>
+              <a class="project__btn" href="https://techport.nasa.gov/view/95780" target="_blank">
+              <span class="project__more">자세히보기</span>
+              <ion-icon name="arrow-forward-circle"></ion-icon>
+            </a>
+          </div>
+        </div>
+        <div class="project__item">
+          <div class="project__content">
+            <div class="project__text">
+              <h1 class="project__name">SUPER EYE</h1>
+              <h2 class="project__name-long">
+                Super Eye 플랫폼 구축을 위한 실증 중심의 정밀관측 융합 요소기술
+                개발
+              </h2>
+              <h3 class="project__discription">
+                극한환경에서 우주를 관측할 수 있는 Super Eye 핵심 요소기술 및
+                시제품 개발
+              </h3>
+            </div>
+              <a class="project__btn" href="https://thesupereye.org/" target="_blank">
+              <span class="project__more">자세히보기</span>
+              <ion-icon name="arrow-forward-circle"></ion-icon>
+            </a>
+          </div>
+        </div>
+        <div class="project__item">
+          <div class="project__content">
+            <div class="project__text">
+              <h1 class="project__name">ROKITS</h1>
+              <h2 class="project__name-long">
+                Republic Of Korea Imaging Test System 우주용 광시야 대기광 관측
+                카메라
+              </h2>
+              <h3 class="project__discription">
+                태양 등 지구 바깥에서 오는 에너지와 지구 대기 하부에서 전달하는
+                에너지에 의한 지구 전리권과 고층대기의 변화 이해
+              </h3>
+            </div>
+            <a class="project__btn" href="" target="_blank">
+              <span class="project__more">자세히보기</span>
+              <ion-icon name="arrow-forward-circle"></ion-icon>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
 <div class="main-contact">
 <span class="main-contact__title">고객문의</span>
 <span class="main-contact__text">앤트브릿지는 관심 있는 분들의 모든 기술 문의 및 제품 문의를 환영합니다</span>
@@ -123,11 +224,20 @@
     </footer>
 
   </body>
-
+  <script
+  type="module"
+  src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+></script>
+<script
+  nomodule
+  src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+></script>
 <script
 src="https://kit.fontawesome.com/ee72f6abf8.js"
 crossorigin="anonymous"
 ></script>
+<script src="js/header.js"></script>
+<script src="js/project.js"></script>
 <script>
 feather.replace();
 </script>
